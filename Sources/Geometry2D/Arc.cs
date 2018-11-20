@@ -198,7 +198,7 @@ namespace Sharp3D.Math.Geometry2D
         /// <returns>A <see cref="Arc"/> that represents the vector specified by the <paramref name="value"/> parameter.</returns>
         public static Arc Parse(string value)
         {
-            Regex r = new Regex(@"\((?<pC>\([^\)]*\)), (?<r>\([^\)]*\)), (?<a0>\([^\)]*\)), ((?<a1>\([^\)]*\))\)", RegexOptions.None);
+            Regex r = new Regex(@"\((?<pC>\([^\)]*\)), (?<r>\([^\)]*\)), (?<a0>\([^\)]*\)), (?<a1>\([^\)]*\))\)", RegexOptions.None);
             Match m = r.Match(value);
             if (m.Success)
             {
