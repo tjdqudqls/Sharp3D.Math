@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sharp3D.Math</RootNamespace>
     <AssemblyName>Sharp3D.Math</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
     </SccProjectName>
@@ -48,6 +48,7 @@
     <PackageReleaseNotes>Sharp3D.Math originally by Eran Kampf but modified by Francois Gasnier</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Contoso Corporation. All rights reserved.</Copyright>
     <PackageTags>2D 3D Geometry Vector Matrix Transformation</PackageTags>
+    <LangVersion>3</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -123,9 +124,11 @@
     <Compile Include="Geometry2D\SegmentMethods.cs" />
     <Compile Include="Geometry2D\Triangle.cs" />
     <Compile Include="Geometry2D\VerticalDistance.cs" />
+    <Compile Include="Geometry3D\AxisAlignedBox.cs" />
     <Compile Include="Geometry3D\Polygon.cs" />
     <Compile Include="Geometry3D\Ray.cs" />
     <Compile Include="Geometry3D\Segment.cs" />
+    <Compile Include="Geometry3D\Sphere.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
